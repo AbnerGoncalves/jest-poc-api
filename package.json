@@ -1,0 +1,22 @@
+{
+  "name": "qa-automation-portabilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests/ --runInBand",
+    "test:watch": "jest tests/ --watchAll --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "@types/supertest": "^2.0.12",
+    "dotenv": "^16.3.1",
+    "esbuild": "^0.18.10",
+    "esbuild-jest": "^0.5.0",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}

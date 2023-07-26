@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "fixtures/*": ["fixtures/*"]
+    },
+  },
+  "include": ["./config/supertest.d.ts", "tests/*.js"]
+}

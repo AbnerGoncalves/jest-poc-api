@@ -1,0 +1,61 @@
+{
+    "action": "portin_request",
+    "timestamp": "2022-12-15T15:30:00.001Z",
+    "channel": "ECOM",
+    "msisdns": [
+        {
+            "msisdn": "11922222222",
+            "rangeStart": "",
+            "rangeStop": ""
+        }
+    ],
+    "customer": {
+        "socialSecNo": "03216549877",
+        "nationalRegistrationLegalEntity": "CnpjNumber",
+        "identyNumber": "010234568",
+        "name": "Teste QA",
+        "assetType": "Teste QA",
+        "type": "PF",
+        "msisdn": "11922222222"
+    },
+    "subscriptionError": {
+        "fraudErrorVersionId": "Informações adicionais",
+        "recipient": {
+            "fraudErrorType": "error",
+            "fraudErrorJustification": "Justification"
+        }
+    },
+    "subscription": {
+        "serviceProvId": "Web",
+        "ticketPortability": "000123123",
+        "groupId": "01",
+        "fixedSpecial": "Y",
+        "customerExtendedPortDate": "N",
+        "recipientSp": "SPID",
+        "donorSp": "SPID 1",
+        "donorSpName": "string",
+        "dueDate": "2022-12-23T14:14:00.001Z",
+        "donorSpAuthorizationDueDate": "EOT do provedor",
+        "recipientSpCreation": "2022-12-24T10:10:00.001Z",
+        "lineType": "Basic",
+        "newCnl": "Nova CNL",
+        "oldCnl": "CNL antigo",
+        "donorActionId": "Teste donor action ID",
+        "portabilityStatus": "Ativo",
+        "portabilityStatusDesc": "Envio",
+        "cancellationCauseCode": "String",
+        "cancellationCauseDescription": "String",
+        "recipientEot": "String",
+        "recipientEotName": "string",
+        "durationDays": "",
+        "lnpType": "LSPP",
+        "requestType": "EnviarSolicitPortab",
+        "localAreaEAindicator": "true",
+        "generateGroupId": "1",
+        "portingOriginalSp": "true",
+        "nextAvailableDate": "2022-12-24T10:10:00.001Z",
+        "windowRuleIndicator": "true",
+        "rn1": "String",
+        "productType": "String"
+    }
+}
